@@ -1,0 +1,98 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: url(../images/black.jpg);
+	text-align: center;
+	background-size: cover;
+	color: red;
+	font-family: sans-serif;
+	padding: 10px;
+	
+
+}
+.reset{
+	position: absolute;
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+	color: black;
+
+}
+.reset p{
+	color: white;
+	font-size: 20px;
+	text-align: left;
+	width: 400px;
+
+}
+.textbox{
+	width: 100%;
+	color: white;
+	opacity: 1.2;
+	font-size: 40px;
+	overflow: hidden;
+	border-bottom: 1px solid black;
+	padding: 8px 0;
+	margin: 8px 0;
+	font-family: bold;
+
+}
+.textbox input{
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 25px;
+	float: left;
+	width: 80%;
+	margin: 0 10px;
+	background-color: none;
+	color: black;
+	font-family: sans-serif;
+
+}
+.btn{
+	opacity: 0.8;
+	width: 300px;
+	background: transparent;
+	color: white;
+	font-family: sans-serif;
+	font-size: 20px;
+
+
+}
+.OTP{
+	width: 300px;
+	background: transparent;
+	border: none;
+	outline: none;
+	font-size: 25px;
+	overflow: hidden;
+	border-bottom: 1px solid black;
+	padding: 8px 0;
+	margin: 8px 0;
+
+}
+.OTP input{
+	background-color: none;
+	color: black;
+	font-family: sans-serif;
+	width: 300px;
+	height: 20px;
+	font-size: 20px;
+	background: transparent;
+	border: none;
+}
+ ::-webkit-input-placeholder{
+	color: red;
+}
+.reset h1{
+	font-size: 20px;
+	color: white;
+	font-family: sans-serif;
+
+}
+.btn:hover {
+	color: orange;
+}
